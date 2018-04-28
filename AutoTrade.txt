@@ -1,0 +1,26 @@
+## Title: AutoTrade - |cAA00000.1.0|r
+## Description: Adds the ability to restack common items to fix ESO's fisation in creating multiple stacks of the same thing.
+## Author: |c00C000Slowglass|r
+## Version: 0.1.0
+## APIVersion: 100022
+## SavedVariables: AutoTrade_Settings
+
+libs/LibStub/LibStub.lua
+libs/LibAddonMenu-2.0/LibAddonMenu-2.0.lua
+libs/LibAddonMenu-2.0/controls/panel.lua
+libs/LibAddonMenu-2.0/controls/submenu.lua
+libs/LibAddonMenu-2.0/controls/checkbox.lua
+libs/LibAddonMenu-2.0/controls/dropdown.lua
+libs/LibAddonMenu-2.0/controls/description.lua
+libs/LibAddonMenu-2.0/controls/editbox.lua
+libs/LibAddonMenu-2.0/controls/header.lua
+libs/LibAddonMenu-2.0/controls/slider.lua
+libs/LibAddonMenu-2.0/controls/button.lua
+libs/LibSettings/LibSettings.lua
+
+AutoTrade.lua
+Lang.en.lua
+Lang.$(language).lua
+
+
+
