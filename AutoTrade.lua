@@ -124,7 +124,7 @@ end
 
 function AutoTrade:CreateOptionsMenu()
 	local LibSettings = LibStub('LibSettings-0.1')
-	local Settings = LibSettings.new("RS_OP", self.langBundle, "AutoTrade_Settings", self.defaults)
+	local Settings = LibSettings.new("AT_OP", self.langBundle, "AutoTrade_Settings", self.defaults)
 	self.settings = Settings.settings
 	local desc = "";
 	desc = desc .."Trade supported sub-commands of slash command /trade\n";
